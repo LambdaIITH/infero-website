@@ -1,3 +1,4 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'Infero IITH'
+theme = 'hello-friend'
