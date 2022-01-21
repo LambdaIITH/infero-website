@@ -1,6 +1,9 @@
 +++
 title = "Number Theory"
-
+date = "2021-09-17"
+author = "x, y, z"
+description = ""
+weight = 6
 +++
 
 ## GCD and LCM
