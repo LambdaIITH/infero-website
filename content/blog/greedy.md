@@ -167,7 +167,11 @@ We have two sets of solutions: one the optimal set and another the greedy set. O
 We continue this process till the end until the optimal solution matches the greedy solution.  
 Consider the following
 
-![drawing](/static/Exchange.png)
+
+
+{{< figure src="/blog/static/Exchange.png" title="Exchange Arguments Drawing" caption="Exchange Arguments">}}
+
+
 <!--<img src="Exchange.png" alt="drawing" />-->
  
 Assume the optimal solution and greedy solution are same till the term $x_{j-1}$, later since $g_j$ is the lowest feasible end time, it has to be $\leq x_j$. Further, it can be seen that similar inequality is applicable for all subsequent terms. If there are $k$ lectures in optimal solution, we get $x_{k-1} \leq g_{k-1}$, Therefore, there are equal or more choices available for last lecture in greedy solution. Note that since greedy solution cannot be better than optimal solution, greedy solution will also have $k$ lectures.
@@ -178,7 +182,7 @@ Here is a [youtube tutorial](https://youtu.be/hVhOeaONg1Y) for exchange argument
 ## When does greedy algorithm fail?
 Greedy algorithm is hort-sighted and only selects the locally optimal solution. This doesn't guarentee that we will get globally optimal soltion. An example can be seen below   
 
-![drawing](static/path890.png)
+{{< figure src="/blog/static/path890.png" title="Exchange Arguments Drawing" >}}
 <!--<img src="path890.png" alt="drawing" width="400"  />-->
 
 Lets say we have to maximise the sum of elements on some branch. The greedy approach is to select the maximum element at each level, which is the red ones in the given example. However, it can be easily observed that this is way worse than the optimal solution. This is why it is important to understand what greedy algorithm does.    
