@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
-paginate = 5
+paginate = 10
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -17,7 +17,7 @@ paginate = 5
   [languages.en]
     title = "Infero IIT Hyderabad"
     subtitle = "The CP Club"
-    keywords = ""
+    keywords = "programming"
     copyright = ""
     menuMore = "Show more"
     writtenBy = "Written by"
