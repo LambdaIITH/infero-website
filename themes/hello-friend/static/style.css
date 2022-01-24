@@ -5,4 +5,21 @@
 	padding: 8px;
 } 
 
-
+@media screen and (max-width: 596px){
+	mjx-container {
+		max-width: 92vw;
+		padding: 0;
+		margin: 0;
+	}
+	mjx-mtable {
+		max-width: 90vw;
+		min-width: 0 !important;
+	}
+	mjx-table {
+		max-width: 90vw;
+		overflow-x: scroll;
+	}
+}
+a {
+	word-wrap : break-word;
+}
