@@ -23,3 +23,21 @@
 a {
 	word-wrap : break-word;
 }
+
+.cf-handle {
+	text-decoration: none;
+	font-weight: bold;
+}
+.legendary-grandmaster {color: red;}
+.international-grandmaster {color: red;}
+.grandmaster {	color: red;}
+.international-master {color: orange;}
+.master {color: orange;}
+.candidate-master {color: #a0a;}
+.expert {color: blue;}
+.specialist {color:#03a89e;}
+.pupil {color: green;}
+.newbie {color: gray;}
+
+
+
