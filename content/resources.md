@@ -44,7 +44,7 @@ It is a series of challenging mathematical/computer programming problems that wi
 ## Annual Competition
 #### [ACM-ICPC](https://icpc.global/)
 #### [Google Competitions](https://codingcompetitions.withgoogle.com/)
-##### Kickstart
-##### Hashcode
-##### Codejam
+- Kickstart
+- Hashcode
+- Codejam
 #### [Facebook Hackercup](https://www.facebook.com/codingcompetitions/hacker-cup/)

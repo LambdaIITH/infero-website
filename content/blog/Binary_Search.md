@@ -1,7 +1,7 @@
 +++
 title = "Binary Search"
 date = "2021-08-12"
-author = "x, y, z"
+author = "Raghav, Sayantan"
 description = ""
 weight = 4
 +++

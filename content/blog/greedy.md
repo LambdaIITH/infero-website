@@ -1,7 +1,7 @@
 +++
 title = "Greedy Algorithm"
 date = "2021-09-30"
-author = "x, y, z"
+author = "Chirag, Krishn, Rahul"
 description = ""
 weight = 5
 +++

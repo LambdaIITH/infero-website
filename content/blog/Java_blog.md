@@ -1,7 +1,7 @@
 +++
 title = "Java Libraries"
 date = "2021-08-12"
-author = "x, y, z"
+author = "Pranav, Srikaran"
 description = ""
 weight = 3
 +++

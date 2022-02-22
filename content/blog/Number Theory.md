@@ -1,7 +1,7 @@
 +++
 title = "Number Theory"
 date = "2021-09-17"
-author = "x, y, z"
+author = "Gautam, Anirudha"
 description = ""
 weight = 6
 +++
