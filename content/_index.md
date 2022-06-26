@@ -3,23 +3,22 @@
 Infero is the Competitive Programming Club of IIT Hyderabad.   
 We are a bunch of fellows who take care of everyone's problems in our own nice geeky way, we think logically, we talk reasonably but well, we are too clumsy and lazy to act, our programs do it instead ;)
 
-### Team 2021-22
+### Team 2022-23
 
 #### Coordinators
-- Ankith Chauhan {{<cfhandle handle="Ankth1216">}}
-- Rewant Raj {{<cfhandle handle="rr7">}}
+- Srikaran Perambuduri {{<cfhandle handle="srikaran_p">}}
+- Varad Yergole {{<cfhandle handle="V4R4D">}}
+- Gautham Bellamkonda {{<cfhandle handle="GauthamB">}}
 
 
 #### Cores
-- Sayantan Biswas {{<cfhandle handle="sayantan13">}}
-- Krishn Vishwas Kher {{<cfhandle handle="SriVitthal8">}}
-- Jai Goyal {{<cfhandle handle="jaig11">}}
-- Meshram Anirudha {{<cfhandle handle="Anirudha07">}}
-- Sairaj Kamble {{<cfhandle handle="Sairaj_99">}}
-- Srikaran Perambuduri {{<cfhandle handle="srikaran_p">}}
-- Ananthoju Pranav Sai {{<cfhandle handle="Pranav_03">}}
-- Gautham B {{<cfhandle handle="GauthamB">}}
-- Chirag Mehta {{<cfhandle handle="PiStroke">}}
-- Varad Yergole {{<cfhandle handle="V4R4D">}}
-- Raghav Juyal {{<cfhandle handle="Ragi">}}
-- V Rahul {{<cfhandle handle="vrahul02">}}
+- Gautam Singh {{<cfhandle handle="goats_9">}}
+- Ankit Saha {{<cfhandle handle="froste09">}}
+- Aayush Kumar {{<cfhandle handle="RandomBee">}}
+- Gunjit Mittal {{<cfhandle handle="gunjitmittal1">}}
+- Vaishnavi Wependram {{<cfhandle handle="henry25">}}
+- Chitneedi Geetha Sowmya {{<cfhandle handle="project2024">}}
+- Ayush Kumar Singh {{<cfhandle handle="ayush2321">}}
+- Stephen V S {{<cfhandle handle="steve004">}}
+- Sumanth N R {{<cfhandle handle="Sig0001">}}
+- Taha Adeel {{<cfhandle handle="Taha_adeel">}}
