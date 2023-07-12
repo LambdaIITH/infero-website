@@ -5,20 +5,34 @@ We are a bunch of fellows who take care of everyone's problems in our own nice g
 
 ### Team 2022-23
 
-#### Coordinators
-- Srikaran Perambuduri {{<cfhandle handle="srikaran_p">}}
-- Varad Yergole {{<cfhandle handle="V4R4D">}}
+#### Mentors
 - Gautham Bellamkonda {{<cfhandle handle="GauthamB">}}
+- Srikaran Perambuduri {{<cfhandle handle="srikaran_p">}}
+- Sumanth N R {{<cfhandle handle="Sig0001">}}
+- Taha Adeel Mohammed {{<cfhandle handle="Taha_adeel">}}
+
+
+#### Heads
+- Aayush Kumar {{<cfhandle handle="RandomBee">}}
+- Ankit Saha {{<cfhandle handle="froste09">}}
 
 
 #### Cores
-- Gautam Singh {{<cfhandle handle="goats_9">}}
-- Ankit Saha {{<cfhandle handle="froste09">}}
-- Aayush Kumar {{<cfhandle handle="RandomBee">}}
-- Gunjit Mittal {{<cfhandle handle="gunjitmittal1">}}
-- Vaishnavi {{<cfhandle handle="henry25">}}
-- Chitneedi Geetha Sowmya {{<cfhandle handle="project2024">}}
-- Ayush Kumar Singh {{<cfhandle handle="ayush2321">}}
-- Stephen V S {{<cfhandle handle="steve004">}}
-- Sumanth N R {{<cfhandle handle="Sig0001">}}
-- Taha Adeel Mohammed {{<cfhandle handle="Taha_adeel">}}
+- Aaryan {{<cfhandle handle="Aaryan.Kaushik">}}
+- Aayush Adlakha {{<cfhandle handle="Aayush_Ad">}}
+- Aditya Garg {{<cfhandle handle="invincible_adi2174">}}
+- Arjun Moravekar {{<cfhandle handle="SaltyDonut">}}
+- Bonthu Mani Hemanth Reddy {{<cfhandle handle="hemanth6">}}
+- Darpan {{<cfhandle handle="darpangaur">}}
+- Dasari Srinith {{<cfhandle handle="srinith">}}
+- Dikshant Khandelwal {{<cfhandle handle="Dikshant2004">}}
+- Edward Nathan Varghese {{<cfhandle handle="edwardnvv57k">}}
+- Gitanshu Arora {{<cfhandle handle="itsgit">}}
+- Kaipa Venkata Tuhil {{<cfhandle handle="Tuhil">}}
+- Nimai Parsa {{<cfhandle handle="nimaiparsa">}}
+- Saketh Ram Kumar Dondapati {{<cfhandle handle="Sakiith">}}
+- Shreyas Shreekant Premkhede {{<cfhandle handle="junior_martyr0902">}}
+- Shubham Suman Vishwakarma {{<cfhandle handle="Shubham-V">}}
+- Suraj Pratap Singh {{<cfhandle handle="thunderbowltt">}}
+- Uttam Paharia {{<cfhandle handle="Uttam_Paharia">}}
+- Vishal Vijay Devadiga {{<cfhandle handle="vdeva003">}}
