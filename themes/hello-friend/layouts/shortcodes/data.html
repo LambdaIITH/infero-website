@@ -1,0 +1,33 @@
+<!-- layouts/shortcodes/data.html -->
+
+{{ with .Get "json_file" }}
+{{ $jsonContent := readFile . }}
+{{ $data := getJSON ("/static/final.json") }}
+<link rel="stylesheet" href="/styles/leaderboard.css">
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Handle</th>
+      <th>Contest 1</th>
+      <th>Contest 2</th>
+      <th>Contest 3</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $index, $user := $data.users }}
+    <tr>
+      <td>{{ $user.rank }}</td>
+      <td><a class='cf-handle' href='https://codeforces.com/profile/{{$user.handle}}' target="_blank">{{ $user.handle}} </a></td>
+      <td>{{ $user.contest_1 }}</td>
+      <td>{{ $user.contest_2 }}</td>
+      <td>{{ $user.contest_3 }}</td>
+      <td>{{ $user.total }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+{{ else }}
+<p>No JSON file specified</p>
+{{ end }}

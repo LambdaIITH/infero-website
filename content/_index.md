@@ -8,7 +8,7 @@ We are a bunch of fellows who take care of everyone's problems in our own nice g
 #### Mentors
 - Gautham Bellamkonda {{<cfhandle handle="GauthamB">}}
 - Srikaran Perambuduri {{<cfhandle handle="srikaran_p">}}
-- Sumanth N R {{<cfhandle handle="Sig0001">}}
+- Sumanth N R {{<cfhandle handle="__sig">}}
 - Taha Adeel Mohammed {{<cfhandle handle="Taha_adeel">}}
 
 
@@ -26,13 +26,13 @@ We are a bunch of fellows who take care of everyone's problems in our own nice g
 - Darpan {{<cfhandle handle="darpangaur">}}
 - Dasari Srinith {{<cfhandle handle="srinith">}}
 - Dikshant Khandelwal {{<cfhandle handle="Dikshant2004">}}
-- Edward Nathan Varghese {{<cfhandle handle="edwardnvv57k">}}
+- Edward Nathan Varghese {{<cfhandle handle="envariant">}}
 - Gitanshu Arora {{<cfhandle handle="itsgit">}}
 - Kaipa Venkata Tuhil {{<cfhandle handle="Tuhil">}}
 - Nimai Parsa {{<cfhandle handle="nimaiparsa">}}
-- Saketh Ram Kumar Dondapati {{<cfhandle handle="Sakiith">}}
+- Saketh Ram Kumar Dondapati {{<cfhandle handle="weirdflexbutok">}}
 - Shreyas Shreekant Premkhede {{<cfhandle handle="junior_martyr0902">}}
 - Shubham Suman Vishwakarma {{<cfhandle handle="Shubham-V">}}
-- Suraj Pratap Singh {{<cfhandle handle="thunderbowltt">}}
+- Suraj Pratap Singh {{<cfhandle handle="Suraj_2509">}}
 - Uttam Paharia {{<cfhandle handle="Uttam_Paharia">}}
 - Vishal Vijay Devadiga {{<cfhandle handle="vdeva003">}}
