@@ -1,484 +1,300 @@
 {
     "users": [
-        {
-            "handle": "GauthamB",
-            "contest_1": 6416,
-            "contest_2": 0,
-            "contest_3": 5076,
-            "total": 11492,
-            "rank": 1
-        },
-        {
-            "handle": "goats_9",
-            "contest_1": 0,
-            "contest_2": 4482,
-            "contest_3": 5552,
-            "total": 10034,
-            "rank": 2
-        },
-        {
-            "handle": "harsha24",
-            "contest_1": 5544,
-            "contest_2": 3948,
-            "contest_3": 0,
-            "total": 9492,
-            "rank": 3
-        },
-        {
-            "handle": "__sig",
-            "contest_1": 8182,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 8182,
-            "rank": 4
-        },
-        {
-            "handle": "saran09",
-            "contest_1": 4242,
-            "contest_2": 2498,
-            "contest_3": 0,
-            "total": 6740,
-            "rank": 5
-        },
-        {
-            "handle": "project2024",
-            "contest_1": 3622,
-            "contest_2": 2570,
-            "contest_3": 0,
-            "total": 6192,
-            "rank": 6
-        },
-        {
-            "handle": "Taha_adeel",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 5622,
-            "total": 5622,
-            "rank": 7
-        },
-        {
-            "handle": "srikaran_p",
-            "contest_1": 4252,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 4252,
-            "rank": 8
-        },
-        {
-            "handle": "Iithyder",
-            "contest_1": 0,
-            "contest_2": 1798,
-            "contest_3": 1626,
-            "total": 3424,
-            "rank": 9
-        },
-        {
-            "handle": "ai21mtech12003",
-            "contest_1": 840,
-            "contest_2": 2262,
-            "contest_3": 0,
-            "total": 3102,
-            "rank": 10
-        },
-        {
-            "handle": "Shravan7",
-            "contest_1": 1104,
-            "contest_2": 1002,
-            "contest_3": 918,
-            "total": 3024,
-            "rank": 11
-        },
-        {
-            "handle": "Siddarth_MSR",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 2518,
-            "total": 2518,
-            "rank": 12
-        },
-        {
-            "handle": "pratiks145",
-            "contest_1": 0,
-            "contest_2": 2322,
-            "contest_3": 0,
-            "total": 2322,
-            "rank": 13
-        },
-        {
-            "handle": "IntelligenTiger2005",
-            "contest_1": 1878,
-            "contest_2": 0,
-            "contest_3": 444,
-            "total": 2322,
-            "rank": 14
-        },
-        {
-            "handle": "ce21btech11053",
-            "contest_1": 2262,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 2262,
-            "rank": 15
-        },
-        {
-            "handle": "ayush2321",
-            "contest_1": 0,
-            "contest_2": 2230,
-            "contest_3": 0,
-            "total": 2230,
-            "rank": 16
-        },
-        {
-            "handle": "fam_arif",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 2190,
-            "total": 2190,
-            "rank": 17
-        },
-        {
-            "handle": "rivak",
-            "contest_1": 2058,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 2058,
-            "rank": 18
-        },
-        {
-            "handle": "monish05",
-            "contest_1": 2028,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 2028,
-            "rank": 19
-        },
-        {
-            "handle": "Via._.Vai",
-            "contest_1": 0,
-            "contest_2": 2012,
-            "contest_3": 0,
-            "total": 2012,
-            "rank": 20
-        },
-        {
-            "handle": "GRB777IITH",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 1986,
-            "total": 1986,
-            "rank": 21
-        },
-        {
-            "handle": "NotSpaceBoy",
-            "contest_1": 0,
-            "contest_2": 1870,
-            "contest_3": 0,
-            "total": 1870,
-            "rank": 22
-        },
-        {
-            "handle": "ethnn_b",
-            "contest_1": 1116,
-            "contest_2": 0,
-            "contest_3": 454,
-            "total": 1570,
-            "rank": 23
-        },
-        {
-            "handle": "aswer03",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 1500,
-            "total": 1500,
-            "rank": 24
-        },
-        {
-            "handle": "AKhacks",
-            "contest_1": 1408,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 1408,
-            "rank": 25
-        },
-        {
-            "handle": "not_makise",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 1370,
-            "total": 1370,
-            "rank": 26
-        },
-        {
-            "handle": "hamza26.faisal",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 1312,
-            "total": 1312,
-            "rank": 27
-        },
-        {
-            "handle": "Suresh_Daniel",
-            "contest_1": 1286,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 1286,
-            "rank": 28
-        },
-        {
-            "handle": "chaitanyan",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 1250,
-            "total": 1250,
-            "rank": 29
-        },
-        {
-            "handle": "lake_city_quiet_pill",
-            "contest_1": 1224,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 1224,
-            "rank": 30
-        },
-        {
-            "handle": "GVSaiPraneeth",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 1204,
-            "total": 1204,
-            "rank": 31
-        },
-        {
-            "handle": "sathvikreddy853",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 1202,
-            "total": 1202,
-            "rank": 32
-        },
-        {
-            "handle": "TheMarioFan102",
-            "contest_1": 1152,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 1152,
-            "rank": 33
-        },
-        {
-            "handle": "Rishi1085",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 1088,
-            "total": 1088,
-            "rank": 34
-        },
-        {
-            "handle": "KSaravanan07",
-            "contest_1": 1040,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 1040,
-            "rank": 35
-        },
-        {
-            "handle": "ma20btech11013",
-            "contest_1": 1028,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 1028,
-            "rank": 36
-        },
-        {
-            "handle": "SRodriguez9970",
-            "contest_1": 994,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 994,
-            "rank": 37
-        },
-        {
-            "handle": "vk_04",
-            "contest_1": 776,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 776,
-            "rank": 38
-        },
-        {
-            "handle": "Ujjwal_Kalra",
-            "contest_1": 706,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 706,
-            "rank": 39
-        },
-        {
-            "handle": "john_john",
-            "contest_1": 482,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 482,
-            "rank": 40
-        },
-        {
-            "handle": "Y_MAHIKUMAR",
-            "contest_1": 462,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 462,
-            "rank": 41
-        },
-        {
-            "handle": "Darling_siddu_06",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 446,
-            "total": 446,
-            "rank": 42
-        },
-        {
-            "handle": "bhanuponguru",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 434,
-            "total": 434,
-            "rank": 43
-        },
-        {
-            "handle": "Ankita_Sri",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 390,
-            "total": 390,
-            "rank": 44
-        },
-        {
-            "handle": "kamalkoushikd",
-            "contest_1": 378,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 378,
-            "rank": 45
-        },
-        {
-            "handle": "Vardan_03",
-            "contest_1": 372,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 372,
-            "rank": 46
-        },
-        {
-            "handle": "ce21btech11013",
-            "contest_1": 372,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 372,
-            "rank": 47
-        },
-        {
-            "handle": "greenbat007",
-            "contest_1": 326,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 326,
-            "rank": 48
-        },
-        {
-            "handle": "FawwazAli",
-            "contest_1": 0,
-            "contest_2": 262,
-            "contest_3": 0,
-            "total": 262,
-            "rank": 49
-        },
-        {
-            "handle": "ai21mtech12004",
-            "contest_1": 228,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 228,
-            "rank": 50
-        },
-        {
-            "handle": "TM1",
-            "contest_1": 0,
-            "contest_2": 150,
-            "contest_3": 0,
-            "total": 150,
-            "rank": 51
-        },
-        {
-            "handle": "Walker0710",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 52
-        },
-        {
-            "handle": "NagaVaishnavi.T",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 53
-        },
-        {
-            "handle": "Palrecha_Sayyam",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 54
-        },
-        {
-            "handle": "cs23mtech14013",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 55
-        },
-        {
-            "handle": "calmyaggressive",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 56
-        },
-        {
-            "handle": "i-AM-DEVIL",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 57
-        },
-        {
-            "handle": "PNSP_13",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 58
-        },
-        {
-            "handle": "adityaamodkar",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 59
-        },
-        {
-            "handle": "AnkAish78",
-            "contest_1": 0,
-            "contest_2": 0,
-            "contest_3": 0,
-            "total": 0,
-            "rank": 60
-        }
+      {
+        "handle": "GauthamB",
+        "contest:1": 6416,
+        "contest:2": 0,
+        "contest:3": 5076,
+        "total": 11492,
+        "rank": 1
+      },
+      {
+        "handle": "harsha24",
+        "contest:1": 5544,
+        "contest:2": 3948,
+        "contest:3": 0,
+        "total": 9492,
+        "rank": 2
+      },
+      {
+        "handle": "saran09",
+        "contest:1": 4242,
+        "contest:2": 2498,
+        "contest:3": 0,
+        "total": 6740,
+        "rank": 3
+      },
+      {
+        "handle": "project2024",
+        "contest:1": 3622,
+        "contest:2": 2570,
+        "contest:3": 0,
+        "total": 6192,
+        "rank": 4
+      },
+      {
+        "handle": "Taha_adeel",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 5622,
+        "total": 5622,
+        "rank": 5
+      },
+      {
+        "handle": "srikaran_p",
+        "contest:1": 4252,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 4252,
+        "rank": 6
+      },
+      {
+        "handle": "ai21mtech12003",
+        "contest:1": 840,
+        "contest:2": 2262,
+        "contest:3": 0,
+        "total": 3102,
+        "rank": 7
+      },
+      {
+        "handle": "Shravan7",
+        "contest:1": 1104,
+        "contest:2": 1002,
+        "contest:3": 918,
+        "total": 3024,
+        "rank": 8
+      },
+      {
+        "handle": "pratiks145",
+        "contest:1": 0,
+        "contest:2": 2322,
+        "contest:3": 0,
+        "total": 2322,
+        "rank": 9
+      },
+      {
+        "handle": "IntelligenTiger2005",
+        "contest:1": 1878,
+        "contest:2": 0,
+        "contest:3": 444,
+        "total": 2322,
+        "rank": 10
+      },
+      {
+        "handle": "fam_arif",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 2190,
+        "total": 2190,
+        "rank": 11
+      },
+      {
+        "handle": "rivak",
+        "contest:1": 2058,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 2058,
+        "rank": 12
+      },
+      {
+        "handle": "Via._.Vai",
+        "contest:1": 0,
+        "contest:2": 2012,
+        "contest:3": 0,
+        "total": 2012,
+        "rank": 13
+      },
+      {
+        "handle": "NotSpaceBoy",
+        "contest:1": 0,
+        "contest:2": 1870,
+        "contest:3": 0,
+        "total": 1870,
+        "rank": 14
+      },
+      {
+        "handle": "ethnn_b",
+        "contest:1": 1116,
+        "contest:2": 0,
+        "contest:3": 454,
+        "total": 1570,
+        "rank": 15
+      },
+      {
+        "handle": "Suresh_Daniel",
+        "contest:1": 1286,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 1286,
+        "rank": 16
+      },
+      {
+        "handle": "chaitanyan",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 1250,
+        "total": 1250,
+        "rank": 17
+      },
+      {
+        "handle": "lake_city_quiet_pill",
+        "contest:1": 1224,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 1224,
+        "rank": 18
+      },
+      {
+        "handle": "sathvikreddy853",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 1202,
+        "total": 1202,
+        "rank": 19
+      },
+      {
+        "handle": "TheMarioFan102",
+        "contest:1": 1152,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 1152,
+        "rank": 20
+      },
+      {
+        "handle": "KSaravanan07",
+        "contest:1": 1040,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 1040,
+        "rank": 21
+      },
+      {
+        "handle": "ma20btech11013",
+        "contest:1": 1028,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 1028,
+        "rank": 22
+      },
+      {
+        "handle": "SRodriguez9970",
+        "contest:1": 994,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 994,
+        "rank": 23
+      },
+      {
+        "handle": "Ujjwal_Kalra",
+        "contest:1": 706,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 706,
+        "rank": 24
+      },
+      {
+        "handle": "john_john",
+        "contest:1": 482,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 482,
+        "rank": 25
+      },
+      {
+        "handle": "Darling_siddu_06",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 446,
+        "total": 446,
+        "rank": 26
+      },
+      {
+        "handle": "bhanuponguru",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 434,
+        "total": 434,
+        "rank": 27
+      },
+      {
+        "handle": "Ankita_Sri",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 390,
+        "total": 390,
+        "rank": 28
+      },
+      {
+        "handle": "kamalkoushikd",
+        "contest:1": 378,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 378,
+        "rank": 29
+      },
+      {
+        "handle": "Vardan_03",
+        "contest:1": 372,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 372,
+        "rank": 30
+      },
+      {
+        "handle": "FawwazAli",
+        "contest:1": 0,
+        "contest:2": 262,
+        "contest:3": 0,
+        "total": 262,
+        "rank": 31
+      },
+      {
+        "handle": "TM1",
+        "contest:1": 0,
+        "contest:2": 150,
+        "contest:3": 0,
+        "total": 150,
+        "rank": 32
+      },
+      {
+        "handle": "adityaamodkar",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 0,
+        "rank": 33
+      },
+      {
+        "handle": "PNSP_13",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 0,
+        "rank": 33
+      },
+      {
+        "handle": "cs23mtech14013",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 0,
+        "rank": 33
+      },
+      {
+        "handle": "AnkAish78",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 0,
+        "rank": 33
+      },
+      {
+        "handle": "calmyaggressive",
+        "contest:1": 0,
+        "contest:2": 0,
+        "contest:3": 0,
+        "total": 0,
+        "rank": 33
+      }
     ]
-}
+  }

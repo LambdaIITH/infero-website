@@ -10,7 +10,7 @@ table {
     border: 1px solid #ddd;
     padding: 12px; /* Increase the padding for better spacing */
     text-align: left;
-    width: 150px; /* Set a specific width for each cell */
+    width: 125px; /* Set a specific width for each cell */
   }
   
   th {
@@ -24,6 +24,6 @@ table {
   } */
   
   th:nth-child(2) {
-    width: 150px; /* Set a specific width for the second column */
+    width: 175px; /* Set a specific width for the second column */
   }
   
