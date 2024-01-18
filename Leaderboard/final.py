@@ -38,14 +38,14 @@ def main():
                 participants.add(handle)
 
     print(participants)
-    scores = {participant: {f"contest:{ i+1}": 0 for i in range(contests_num)} for participant in participants}
+    scores = {participant: {f"contest_{ i+1}": 0 for i in range(contests_num)} for participant in participants}
     for idx, contest in enumerate(contest_ids):
         with open(f"output{idx + 1}.json", 'r') as file:
             data = json.load(file)
             for participant in data:
                 handle = participant['handle']
                 score = participant['score']
-                scores[handle][f"contest:{idx+1}"] = score
+                scores[handle][f"contest_{idx+1}"] = score
                 
                 # if 'total' not in scores[handle]:
                 # scores[handle]['total'] = 0
@@ -58,7 +58,7 @@ def main():
         sorted_scores = []
         tot = 0
         for i in range(contests_num):
-            sorted_scores.append(scores[participant][f"contest:{i+1}"])
+            sorted_scores.append(scores[participant][f"contest_{i+1}"])
         sorted_scores.sort(reverse=True)
         for i in range(contests_num):
             print(sorted_scores[i])
