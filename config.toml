@@ -52,5 +52,5 @@ paginate = 10
 		  url = "/resources"
     [[languages.en.menu.main]]
 	    identifier = "acpl"
-		  name = "Acpl"
+		  name = "ACPL"
 		  url = "/acpl"
