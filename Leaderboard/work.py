@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Load Excel data into a DataFrame
-excel_file = 'data.xlsx'
+excel_file = 'updated_data.xlsx'
 df = pd.read_excel(excel_file)
 
 # Load JSON data
@@ -21,15 +21,20 @@ for user in users_list:
     # Check if the handle is present in the Excel file
     for i in range(len(df)-1):
         # Check if the handle is present in the 'Codeforces username' column
+        # print(df.at[i+1,'Codeforces username'])
+        # print(handle)
         if (df.at[i+1,'Codeforces username'] == handle):
-    
+            # print(handle)
             if (df.at[i+1,'Round 1'] == ('P') or 
             df.at[i+1,'Round 2'] == ('P') or
             df.at[i+1,'Round 3'] == ('P')):
                 # Person is present, append to the updated list
-                user['rank'] = j
-                j = j+1
-                updated_users.append(user)
+                
+               
+                if user not in updated_users:
+                    updated_users.append(user)
+                    user['rank'] = j
+                    j = j+1
             print("Added", handle)
             
 
