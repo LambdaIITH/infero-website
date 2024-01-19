@@ -1,8 +1,7 @@
 <!-- layouts/shortcodes/data.html -->
 
 {{ with .Get "json_file" }}
-{{ $jsonContent := readFile . }}
-{{ $data := getJSON ("/static/final.json") }}
+    {{ $data := index $.Site.Data . }}
 <link rel="stylesheet" href="/styles/leaderboard.css">
 <div class="container-for-table">
   <table>
@@ -30,6 +29,6 @@
     </tbody>
   </table>
 </div>
-{{ else }}
-<p>No JSON file specified</p>
-{{ end }}
+{{else}}
+<p> No Json specified</p>
+{{end}}
