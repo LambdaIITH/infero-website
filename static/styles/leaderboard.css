@@ -1,0 +1,60 @@
+/* static/css/styles.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increase the padding for better spacing */
+  text-align: left;
+  width: 125px; /* Set a specific width for each cell */
+}
+
+th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+
+/* tr:nth-child() {
+  background-color: #f9f9f9;
+} */
+
+th:nth-child(2) {
+  width: 200px; /* Set a specific width for the second column */
+}
+
+th:nth-child(1){
+  width: 80px;
+}
+
+.container-for-table {
+  max-width: 100%; /* Set a maximum width for the container */
+  overflow-x: visible; /* Enable horizontal scrolling for the container */
+}
+
+@media (max-width: 900px) {
+  /* Reduce font size for smaller screens */
+  th, td {
+      font-size: 14px; /* Adjust the font size as needed */
+  }
+
+  .container-for-table
+  {
+    overflow-x: scroll;
+  }
+
+  /* Adjust the table width for smaller screens */
+  table {
+      width: 90%; /* Adjust the width as needed */
+  }
+
+  /* Optional: Adjust the width of the second column for smaller screens */
+  th:nth-child(2),
+  td:nth-child(2) {
+      width: 150px; /* Adjust the width as needed */
+  }
+}
