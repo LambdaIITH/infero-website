@@ -31,7 +31,9 @@ for userData in users_list:
         users_list.remove(userData)
         print("Removed", handle)
     
-    userData['total'] = sum([userData[f'contest_{i}'] for i in range(1, num_contests+1)])
+    arr = sorted([userData[f'contest_{i}'] for i in range(1, num_contests+1)], reverse= True)[:3]
+    
+    userData['total'] = sum(arr)
 
 users_list.sort(key=lambda x: x['total'], reverse=True)
 
