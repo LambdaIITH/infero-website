@@ -8,3 +8,6 @@
 - Have a list of present users in *data.xlsx*.
 - Run **fetch_handles.py** which modifies CF handles in *data.xlsx* to *updated_data.xlsx*
 - Run **work.py** which removes absentees from the final json
+
+## Note
+- All the data is regenerated every time you run the scripts.
