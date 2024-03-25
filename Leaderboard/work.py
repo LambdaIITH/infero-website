@@ -1,9 +1,12 @@
 import pandas as pd
 import json
+import sys
 
 # Load Excel data into a DataFrame
 excel_file = 'updated_data.xlsx'
 df = pd.read_excel(excel_file)
+
+num_contests = int(sys.argv[1])
 
 # Load JSON data
 json_file = 'final.json'
@@ -11,36 +14,37 @@ with open(json_file, 'r') as f:
     data = json.load(f)
 
 users_list = data['users']
-# Create a new list to store updated user data
-updated_users = []
-j = 1
-# Iterate through each person in the JSON data
-for user in users_list:
-    handle = user['handle']
-    score = user['total']
-    # Check if the handle is present in the Excel file
-    for i in range(len(df)-1):
-        # Check if the handle is present in the 'Codeforces username' column
-        # print(df.at[i+1,'Codeforces username'])
-        # print(handle)
-        if (df.at[i+1,'Codeforces username'] == handle):
-            # print(handle)
-            if (df.at[i+1,'Round 1'] == ('P') or 
-            df.at[i+1,'Round 2'] == ('P') or
-            df.at[i+1,'Round 3'] == ('P')):
-                # Person is present, append to the updated list
-                
-               
-                if user not in updated_users:
-                    updated_users.append(user)
-                    user['rank'] = j
-                    j = j+1
-            print("Added", handle)
+
+# to check if the user has participated in the contest
+
+for userData in users_list:
+    handle = userData['handle']
+    cur_bool = False
+    for cur_cont in range(1, num_contests+1): # iterate over all contests
+        for idx, row in df.iterrows(): # iterate over all rows in the Excel file
+            if row['Codeforces username'] == handle:
+                if row[f'Round {cur_cont}'] != 'P':
+                    cur_bool = True
+                    userData[f'contest_{cur_cont}'] = 0
+                    break
+    if not cur_bool: # if the user has participated in no contest, remove the user
+        users_list.remove(userData)
+        print("Removed", handle)
+    
+    arr = sorted([userData[f'contest_{i}'] for i in range(1, num_contests+1)], reverse= True)[:3]
+    
+    userData['total'] = sum(arr)
+
+users_list.sort(key=lambda x: x['total'], reverse=True)
+
+# creating the ranks in a new list
+for idx,userData in enumerate(users_list):
+    userData['rank'] = idx + 1
             
 
 # Update the 'users' key in the original data dictionary
 
-data['users'] = updated_users
+data['users'] = users_list
 
 for idx, obj in enumerate(data['users']):
     if idx == 0:

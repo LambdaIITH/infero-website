@@ -2,19 +2,19 @@ import json
 import os
 import sys
 
-
+# current codes_num = [473618 6 480016 6 485152 6 499604 6 506063 6]
 # prefer giving all contest_ids instead of only giving 1
 
-contest_ids = ['473618', '480016', '485152']
+contest_ids = [sys.argv[i] for i in range(1, len(sys.argv)) if i % 2 != 0]
+#
+
+num_questions = [sys.argv[i] for i in range(2, len(sys.argv)) if i % 2 == 0]
 
 points = [
-    [str(i*500) for i in range(1, 7)],
-    [str(i*500) for i in range(1, 7)],
-    [str(i*500) for i in range(1, 7)]
+    [str(i*500) for i in range(1, int(num_questions[j])+1)] for j in range(len(num_questions))
 ]
 
 contests_num = len(contest_ids)
-
 
 def main():
 
@@ -24,7 +24,8 @@ def main():
     participants = set()
     for idx, contest in enumerate(contest_ids):
         print(f'Contest: {contest}')
-        os.system( f'python3 acpl.py {contest} "output"{ idx + 1}.json {" ".join(points[idx])}')
+        os.system(f'python3 acpl.py {contest} "output"{
+                  idx + 1}.json {" ".join(points[idx])}')
         # print(f'python3 acpl.py {contest} output{idx + 1}.json {" ".join(points[idx])}')
         print('Done')
         print('------------------')
@@ -38,7 +39,8 @@ def main():
                 participants.add(handle)
 
     print(participants)
-    scores = {participant: {f"contest_{ i+1}": 0 for i in range(contests_num)} for participant in participants}
+    scores = {participant: {f"contest_{
+        i+1}": 0 for i in range(contests_num)} for participant in participants}
     for idx, contest in enumerate(contest_ids):
         with open(f"output{idx + 1}.json", 'r') as file:
             data = json.load(file)
@@ -46,15 +48,14 @@ def main():
                 handle = participant['handle']
                 score = participant['score']
                 scores[handle][f"contest_{idx+1}"] = score
-                
+
                 # if 'total' not in scores[handle]:
                 # scores[handle]['total'] = 0
                 # else:
-                   
-        
+
         os.remove(f"output{idx + 1}.json")
 
-    for idx,participant in enumerate(participants):
+    for idx, participant in enumerate(participants):
         sorted_scores = []
         tot = 0
         for i in range(contests_num):
@@ -86,7 +87,7 @@ def main():
     final_dict = {"users": scores}
 
     with open('final.json', 'w') as file:
-        json.dump(final_dict, file)
+        json.dump(final_dict, file, indent=4)
 
 
 if __name__ == "__main__":
