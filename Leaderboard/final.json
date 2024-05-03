@@ -3,102 +3,92 @@
     {
       "handle": "goats_9",
       "contest_1": 0,
-      "contest_2": 4482,
-      "contest_3": 5552,
-      "contest_4": 6518,
-      "contest_5": 3830,
-      "total": 16552,
+      "contest_2": 3730,
+      "contest_3": 4495,
+      "contest_4": 5247,
+      "contest_5": 3269,
+      "total": 13472,
       "rank": 1
     },
     {
       "handle": "__sig",
-      "contest_1": 8182,
+      "contest_1": 6299,
       "contest_2": 0,
       "contest_3": 0,
       "contest_4": 0,
-      "contest_5": 6192,
-      "total": 14374,
+      "contest_5": 4983,
+      "total": 11282,
       "rank": 2
     },
     {
       "handle": "GauthamB",
-      "contest_1": 6416,
+      "contest_1": 5092,
       "contest_2": 0,
-      "contest_3": 5076,
+      "contest_3": 4120,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 11492,
+      "total": 9212,
       "rank": 3
-    },
-    {
-      "handle": "harsha24",
-      "contest_1": 5544,
-      "contest_2": 3948,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 9492,
-      "rank": 4
     },
     {
       "handle": "Siddarth_MSR",
       "contest_1": 0,
       "contest_2": 0,
-      "contest_3": 2518,
-      "contest_4": 3768,
-      "contest_5": 2632,
-      "total": 8918,
+      "contest_3": 2330,
+      "contest_4": 3211,
+      "contest_5": 2400,
+      "total": 7941,
+      "rank": 4
+    },
+    {
+      "handle": "harsha24",
+      "contest_1": 4469,
+      "contest_2": 3358,
+      "contest_3": 0,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 7827,
       "rank": 5
     },
     {
       "handle": "saran09",
-      "contest_1": 4242,
-      "contest_2": 2498,
+      "contest_1": 3627,
+      "contest_2": 2297,
       "contest_3": 0,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 6740,
+      "total": 5924,
       "rank": 6
     },
     {
       "handle": "project2024",
-      "contest_1": 3622,
-      "contest_2": 2570,
+      "contest_1": 3051,
+      "contest_2": 2355,
       "contest_3": 0,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 6192,
+      "total": 5406,
       "rank": 7
     },
     {
-      "handle": "Taha_adeel",
+      "handle": "chaitanyan",
       "contest_1": 0,
       "contest_2": 0,
-      "contest_3": 5622,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 5622,
+      "contest_3": 1250,
+      "contest_4": 1400,
+      "contest_5": 2563,
+      "total": 5213,
       "rank": 8
     },
     {
       "handle": "fam_arif",
       "contest_1": 0,
       "contest_2": 0,
-      "contest_3": 2190,
+      "contest_3": 2025,
       "contest_4": 980,
-      "contest_5": 2276,
-      "total": 5446,
+      "contest_5": 2083,
+      "total": 5088,
       "rank": 9
-    },
-    {
-      "handle": "IntelligenTiger2005",
-      "contest_1": 1878,
-      "contest_2": 0,
-      "contest_3": 444,
-      "contest_4": 2538,
-      "contest_5": 456,
-      "total": 4872,
-      "rank": 10
     },
     {
       "handle": "GVSaiPraneeth",
@@ -106,18 +96,28 @@
       "contest_2": 0,
       "contest_3": 1204,
       "contest_4": 1070,
-      "contest_5": 2538,
-      "total": 4812,
+      "contest_5": 2337,
+      "total": 4611,
+      "rank": 10
+    },
+    {
+      "handle": "Taha_adeel",
+      "contest_1": 0,
+      "contest_2": 0,
+      "contest_3": 4581,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 4581,
       "rank": 11
     },
     {
-      "handle": "srikaran_p",
-      "contest_1": 4252,
+      "handle": "IntelligenTiger2005",
+      "contest_1": 1724,
       "contest_2": 0,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 4252,
+      "contest_3": 444,
+      "contest_4": 2234,
+      "contest_5": 456,
+      "total": 4414,
       "rank": 12
     },
     {
@@ -126,18 +126,28 @@
       "contest_2": 0,
       "contest_3": 0,
       "contest_4": 1296,
-      "contest_5": 2592,
-      "total": 3888,
+      "contest_5": 2391,
+      "total": 3687,
+      "rank": 13
+    },
+    {
+      "handle": "srikaran_p",
+      "contest_1": 3658,
+      "contest_2": 0,
+      "contest_3": 0,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 3658,
       "rank": 14
     },
     {
-      "handle": "chaitanyan",
+      "handle": "envariant",
       "contest_1": 0,
       "contest_2": 0,
-      "contest_3": 1250,
-      "contest_4": 1400,
-      "contest_5": 944,
-      "total": 3594,
+      "contest_3": 0,
+      "contest_4": 3531,
+      "contest_5": 0,
+      "total": 3531,
       "rank": 15
     },
     {
@@ -156,19 +166,9 @@
       "contest_2": 0,
       "contest_3": 0,
       "contest_4": 952,
-      "contest_5": 2332,
-      "total": 3284,
+      "contest_5": 2131,
+      "total": 3083,
       "rank": 17
-    },
-    {
-      "handle": "ai21mtech12003",
-      "contest_1": 840,
-      "contest_2": 2262,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 3102,
-      "rank": 18
     },
     {
       "handle": "Shravan7",
@@ -178,6 +178,16 @@
       "contest_4": 0,
       "contest_5": 0,
       "total": 3024,
+      "rank": 18
+    },
+    {
+      "handle": "ai21mtech12003",
+      "contest_1": 840,
+      "contest_2": 2084,
+      "contest_3": 0,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 2924,
       "rank": 19
     },
     {
@@ -204,30 +214,30 @@
       "handle": "not_makise",
       "contest_1": 0,
       "contest_2": 0,
-      "contest_3": 1370,
+      "contest_3": 1197,
       "contest_4": 0,
       "contest_5": 1112,
-      "total": 2482,
+      "total": 2309,
       "rank": 22
     },
     {
       "handle": "pratiks145",
       "contest_1": 0,
-      "contest_2": 2322,
+      "contest_2": 2144,
       "contest_3": 0,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 2322,
+      "total": 2144,
       "rank": 23
     },
     {
       "handle": "ayush2321",
       "contest_1": 0,
-      "contest_2": 2230,
+      "contest_2": 2055,
       "contest_3": 0,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 2230,
+      "total": 2055,
       "rank": 24
     },
     {
@@ -235,60 +245,50 @@
       "contest_1": 0,
       "contest_2": 0,
       "contest_3": 0,
-      "contest_4": 2128,
+      "contest_4": 1989,
       "contest_5": 0,
-      "total": 2128,
+      "total": 1989,
       "rank": 25
     },
     {
       "handle": "rivak",
-      "contest_1": 2058,
+      "contest_1": 1899,
       "contest_2": 0,
       "contest_3": 0,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 2058,
+      "total": 1899,
       "rank": 26
     },
     {
       "handle": "Via._.Vai",
       "contest_1": 0,
-      "contest_2": 2012,
+      "contest_2": 1847,
       "contest_3": 0,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 2012,
+      "total": 1847,
       "rank": 27
     },
     {
       "handle": "NotSpaceBoy",
       "contest_1": 0,
-      "contest_2": 1870,
+      "contest_2": 1716,
       "contest_3": 0,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 1870,
+      "total": 1716,
       "rank": 28
     },
     {
       "handle": "AKhacks",
-      "contest_1": 1408,
+      "contest_1": 1251,
       "contest_2": 0,
       "contest_3": 0,
       "contest_4": 0,
       "contest_5": 0,
-      "total": 1408,
+      "total": 1251,
       "rank": 29
-    },
-    {
-      "handle": "Suresh_Daniel",
-      "contest_1": 1286,
-      "contest_2": 0,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 1286,
-      "rank": 30
     },
     {
       "handle": "lake_city_quiet_pill",
@@ -298,7 +298,7 @@
       "contest_4": 0,
       "contest_5": 0,
       "total": 1224,
-      "rank": 31
+      "rank": 30
     },
     {
       "handle": "sathvikreddy853",
@@ -308,7 +308,7 @@
       "contest_4": 0,
       "contest_5": 0,
       "total": 1202,
-      "rank": 32
+      "rank": 31
     },
     {
       "handle": "fast_learner_aadi",
@@ -318,6 +318,16 @@
       "contest_4": 1178,
       "contest_5": 0,
       "total": 1178,
+      "rank": 32
+    },
+    {
+      "handle": "Suresh_Daniel",
+      "contest_1": 1145,
+      "contest_2": 0,
+      "contest_3": 0,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 1145,
       "rank": 33
     },
     {
@@ -531,36 +541,6 @@
       "rank": 49
     },
     {
-      "handle": "ma21btech11001",
-      "contest_1": 0,
-      "contest_2": 0,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 0,
-      "rank": 49
-    },
-    {
-      "handle": "i-AM-DEVIL",
-      "contest_1": 0,
-      "contest_2": 0,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 0,
-      "rank": 49
-    },
-    {
-      "handle": "calmyaggressive",
-      "contest_1": 0,
-      "contest_2": 0,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 0,
-      "rank": 49
-    },
-    {
       "handle": "Palrecha_Sayyam",
       "contest_1": 0,
       "contest_2": 0,
@@ -571,27 +551,7 @@
       "rank": 49
     },
     {
-      "handle": "NagaVaishnavi.T",
-      "contest_1": 0,
-      "contest_2": 0,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 0,
-      "rank": 49
-    },
-    {
-      "handle": "adityaamodkar",
-      "contest_1": 0,
-      "contest_2": 0,
-      "contest_3": 0,
-      "contest_4": 0,
-      "contest_5": 0,
-      "total": 0,
-      "rank": 49
-    },
-    {
-      "handle": "PNSP_13",
+      "handle": "i-AM-DEVIL",
       "contest_1": 0,
       "contest_2": 0,
       "contest_3": 0,
@@ -612,6 +572,46 @@
     },
     {
       "handle": "AnkAish78",
+      "contest_1": 0,
+      "contest_2": 0,
+      "contest_3": 0,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 0,
+      "rank": 49
+    },
+    {
+      "handle": "ma21btech11001",
+      "contest_1": 0,
+      "contest_2": 0,
+      "contest_3": 0,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 0,
+      "rank": 49
+    },
+    {
+      "handle": "calmyaggressive",
+      "contest_1": 0,
+      "contest_2": 0,
+      "contest_3": 0,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 0,
+      "rank": 49
+    },
+    {
+      "handle": "PNSP_13",
+      "contest_1": 0,
+      "contest_2": 0,
+      "contest_3": 0,
+      "contest_4": 0,
+      "contest_5": 0,
+      "total": 0,
+      "rank": 49
+    },
+    {
+      "handle": "adityaamodkar",
       "contest_1": 0,
       "contest_2": 0,
       "contest_3": 0,

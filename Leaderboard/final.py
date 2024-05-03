@@ -11,7 +11,7 @@ contest_ids = [sys.argv[i] for i in range(1, len(sys.argv)) if i % 2 != 0]
 num_questions = [sys.argv[i] for i in range(2, len(sys.argv)) if i % 2 == 0]
 
 points = [
-    [str(i*500) for i in range(1, int(num_questions[j])+1)] for j in range(len(num_questions))
+    ['500','1000','1250','1500','1750','2000'] for j in range(len(num_questions))
 ]
 
 contests_num = len(contest_ids)
@@ -24,8 +24,7 @@ def main():
     participants = set()
     for idx, contest in enumerate(contest_ids):
         print(f'Contest: {contest}')
-        os.system(f'python3 acpl.py {contest} "output"{
-                  idx + 1}.json {" ".join(points[idx])}')
+        os.system(f'python3 acpl.py {contest} "output"{ idx + 1}.json {" ".join(points[idx])}')
         # print(f'python3 acpl.py {contest} output{idx + 1}.json {" ".join(points[idx])}')
         print('Done')
         print('------------------')
@@ -39,8 +38,7 @@ def main():
                 participants.add(handle)
 
     print(participants)
-    scores = {participant: {f"contest_{
-        i+1}": 0 for i in range(contests_num)} for participant in participants}
+    scores = {participant: {f"contest_{i+1}": 0 for i in range(contests_num)} for participant in participants}
     for idx, contest in enumerate(contest_ids):
         with open(f"output{idx + 1}.json", 'r') as file:
             data = json.load(file)
