@@ -2,6 +2,7 @@
 
 ## Steps
 - Create a *.env* file.
+- Before running final.py, we are also making sure to remove all the cores, so just type all the cores cf-handles in the cores list.
 - Run the *final.py* script using the format below.
    ```bash
         python final.py {contest_id_1} {num_question_1} {contest_id_2} {num_question_2} ...```
@@ -16,8 +17,7 @@
         python work.py {num_contests}```
 - Here, *num_contests* is the number of contests you have data for.
 - It generates a *final_data.json* file with the final scores.
-- Take the *final_data.json* file and put it in the *data* folder.
-- Finally, in the *data.html* file, add columns for more contests.
+- Just get the json file at the dropbox link updated.
 
 
 ## Note

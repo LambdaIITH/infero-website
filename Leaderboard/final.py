@@ -5,6 +5,27 @@ import sys
 # current codes_num = [473618 6 480016 6 485152 6 499604 6 506063 6]
 # prefer giving all contest_ids instead of only giving 1
 
+# will be used from removal of cores
+cores = ["Aaryan.Kaushik"
+,"Aayush_Ad"
+,"invincible_adi2174"
+,"SaltyDonut"
+,"hemanth6"
+,"darpangaur"
+,"srinith"
+,"Dikshant2004"
+,"envariant"
+,"itsgit"
+,"Tuhil"
+,"nimaiparsa"
+,"weirdflexbutok"
+,"junior_martyr0902"
+,"Shubham-V"
+,"Suraj_2509"
+,"Uttam_Paharia"
+,"vdeva003"]
+
+
 contest_ids = [sys.argv[i] for i in range(1, len(sys.argv)) if i % 2 != 0]
 #
 
@@ -73,14 +94,14 @@ def main():
     scores = sorted(scores.items(), key=lambda x: x[1]['total'], reverse=True)
 
     # convert back to dict
-    scores = {handle[0]: handle[1] for handle in scores}
-
+    scores = {handle[0]: handle[1] for handle in scores if handle[0] not in cores}
+    
     # assigning ranks
     for idx, handle in enumerate(scores):
-        scores[handle]['rank'] = idx + 1
+            scores[handle]['rank'] = idx + 1
 
     # just assuring it gets rendered properly
-    scores = [{"handle": key, **values} for key, values in scores.items()]
+    scores = [{"handle": key, **values} for key, values in scores.items() ]
 
     final_dict = {"users": scores}
 
