@@ -15,8 +15,8 @@ paginate = 10
 
 [languages]
   [languages.en]
-    title = "Infero IIT Hyderabad"
-    subtitle = "The CP Club"
+    title = "Infero"
+    subtitle = "the Algorithmic and Logical Reasoning Club"
     keywords = "programming"
     copyright = ""
     menuMore = "Show more"
