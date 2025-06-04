@@ -6,27 +6,27 @@ We are a bunch of fellows who take care of everyone's problems in our own nice g
 ### Team 2024-25
 
 #### Mentors
-- Aayush Kumar {{<cfhandle handle="RandomBee">}}
-- Ankit Saha {{<cfhandle handle="froste09">}}
+- Edward Nathan Varghese {{<cfhandle handle="envariant">}}
+- Saketh Ram Kumar {{<cfhandle handle="weirdflexbutok">}}
 
 
 #### Heads
-- Edward Nathan Varghese {{<cfhandle handle="envariant">}}
-- Saketh Ram Kumar Dondapati {{<cfhandle handle="weirdflexbutok">}}
+- Chaitanya Nemmani {{<cfhandle handle="chaitanyan">}}
+- Muppidi Sai Rajeshwara Siddarth Reddy {{<cfhandle handle="Siddarth_MSR">}}
 
 
 #### Cores
-- Aabisheg T {{<cfhandle handle="disasterclass">}}
-- Aadi Sinha {{<cfhandle handle="alooki_bori">}}
-- Akshaya Tharun C R {{<cfhandle handle="akshay402">}}
-- Anurag Vishwanatham {{<cfhandle handle="ragi_bytes">}}
-- Ashutosh Bhatta {{<cfhandle handle="ashu_bhatta">}}
-- Chaitanya Nemmani {{<cfhandle handle="chaitanyan">}}
-- Gopi Charan Reddy {{<cfhandle handle="Geto">}}
-- J D Gokul Krishna {{<cfhandle handle="User_anon">}}
-- Kotikalapudi Karthik {{<cfhandle handle="Karthik_Kotikalapudi">}}
-- Mohammed Abdul Muqeeth {{<cfhandle handle="muqeeth26832">}}
-- Muppidi Sai Rajeshwara Siddarth Reddy {{<cfhandle handle="Siddarth_MSR">}}
-- Raam.M {{<cfhandle handle="TheMarioFan102">}}
-- Taimur Karim {{<cfhandle handle="ic23btech11023">}}
-- Varun Gopal {{<cfhandle handle="gopalvarun03">}}
+- Aditya Narayan {{<cfhandle handle="Tw1light">}}
+- Ailoni Sahasransh Reddy {{<cfhandle handle="atigdng">}}
+- Chirame Tanishq Arvind {{<cfhandle handle="Titan493ASST">}}
+- Devesh Gautam {{<cfhandle handle="i-AM-DEVIL">}}
+- Garvit Khedar {{<cfhandle handle="Garvit_Khedar">}}
+- H Vasant Kumar {{<cfhandle handle="SparkSTAR143">}}
+- Harshvardhan Patidar {{<cfhandle handle="harsh15044">}}
+- Kuruva Jeshwanth Krishna  {{<cfhandle handle="jkpromax">}}
+- Nimish Agarwal {{<cfhandle handle="nimish.agarwal.2006">}}
+- Shiva Chethan Halamane  {{<cfhandle handle="Adamant18">}}
+- Shiven Bajpai {{<cfhandle handle="HyperBoolean">}}
+- Shivram S{{<cfhandle handle="shivrm">}}
+- Taleem Hossain {{<cfhandle handle="Darkai99">}}
+- Ved Ambarkar {{<cfhandle handle="FranXenoz">}}
