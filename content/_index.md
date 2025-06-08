@@ -25,6 +25,7 @@ We are a bunch of fellows who take care of everyone's problems in our own nice g
 - Harshvardhan Patidar {{<cfhandle handle="harsh15044">}}
 - Kuruva Jeshwanth Krishna  {{<cfhandle handle="jkpromax">}}
 - Nimish Agarwal {{<cfhandle handle="nimish.agarwal.2006">}}
+- Sri Sai Mahi Praneeth Kodavati {{<cfhandle handle="Praneeth018">}}
 - Shiva Chethan Halamane  {{<cfhandle handle="Adamant18">}}
 - Shiven Bajpai {{<cfhandle handle="HyperBoolean">}}
 - Shivram S {{<cfhandle handle="shivrm">}}
