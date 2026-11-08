@@ -1,0 +1,492 @@
+<!doctype html><html lang=en><head><title>C++ Libraries ::
+Infero — the Algorithmic and Logical Reasoning Club</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="The C++ Standard Template Library (STL) The Standard Template Library, or STL, is a C++ library of container classes, algorithms, and iterators; it provides many of the basic algorithms and data structures of computer science. It is a generalized library and so, its components are parameterized: almost every component in the STL is a template.
+As mentioned earlier STL has four components
+ Containers Iterators Algorithms Functions  Containers The containers are objects that store data."><meta name=keywords content="programming"><meta name=robots content="noodp"><link rel=canonical href=https://infero.iith.dev/blog/cpp_stl/><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']]},svg:{fontCache:'global'}}</script><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script><link rel=stylesheet href=https://infero.iith.dev/assets/style.css><link rel=stylesheet href=https://infero.iith.dev/style.css><link rel=apple-touch-icon-precomposed sizes=144x144 href=https://infero.iith.dev/img/apple-touch-icon-144-precomposed.png><link rel="shortcut icon" href=https://infero.iith.dev/img/favicon.png><link href=https://infero.iith.dev/assets/fonts/Inter-Italic.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://infero.iith.dev/assets/fonts/Inter-Regular.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://infero.iith.dev/assets/fonts/Inter-Medium.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://infero.iith.dev/assets/fonts/Inter-MediumItalic.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://infero.iith.dev/assets/fonts/Inter-Bold.woff2 rel=preload type=font/woff2 as=font crossorigin><link href=https://infero.iith.dev/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin><meta name=twitter:card content="summary"><meta name=twitter:title content="C++ Libraries"><meta name=twitter:description content="The C++ Standard Template Library (STL) The Standard Template Library, or STL, is a C++ library of container classes, algorithms, and iterators; it provides many of the basic algorithms and data structures of computer science. It is a generalized library and so, its components are parameterized: almost every component in the STL is a template.
+As mentioned earlier STL has four components
+ Containers Iterators Algorithms Functions  Containers The containers are objects that store data."><meta property="og:title" content="C++ Libraries"><meta property="og:description" content="The C++ Standard Template Library (STL) The Standard Template Library, or STL, is a C++ library of container classes, algorithms, and iterators; it provides many of the basic algorithms and data structures of computer science. It is a generalized library and so, its components are parameterized: almost every component in the STL is a template.
+As mentioned earlier STL has four components
+ Containers Iterators Algorithms Functions  Containers The containers are objects that store data."><meta property="og:type" content="article"><meta property="og:url" content="https://infero.iith.dev/blog/cpp_stl/"><meta property="article:section" content="blog"><meta property="article:published_time" content="2021-08-12T00:00:00+00:00"><meta property="article:modified_time" content="2021-08-12T00:00:00+00:00"><meta property="og:site_name" content="Infero"></head><body class=dark-theme><div class=container><header class=header><span class=header__inner><a href=/ class=logo style=text-decoration:none><span class=logo__mark><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44"><path fill="none" d="M15 8l14.729 14.382L15 35.367"/></svg></span><span class=logo__text>Infero IITH</span>
+<span class=logo__cursor></span></a><span class=header__right><nav class=menu><ul class="menu__inner menu__inner--desktop"><li><a href=/>About</a></li><li><a href=/acpl>ACPL</a></li><li><a href=/blog>Blog</a></li><li><a href=/resources>Resources</a></li></ul><ul class="menu__inner menu__inner--mobile"><li><a href=/>About</a></li><li><a href=/acpl>ACPL</a></li><li><a href=/blog>Blog</a></li><li><a href=/resources>Resources</a></li></ul></nav><span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span><span class=theme-toggle><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41c10.4934.0 19-8.5066 19-19C41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg></span></span></span></header><div class=content><div class=post><h1 class=post-title>C++ Libraries</h1><div class=post-meta><span class=post-date>2021-08-12</span>
+<span class=post-author>— Written by Pranav, Srikaran</span></div><div class=post-content><h2 id=the-c-standard-template-library-stl><strong>The C++ Standard Template Library (STL)</strong></h2><p>The Standard Template Library, or STL, is a C++ library of container classes, algorithms, and iterators; it provides many of the basic algorithms and data structures of computer science. It is a generalized library and so, its components are parameterized: almost every component in the STL is a template.</p><p>As mentioned earlier <strong>STL has four components</strong></p><ul><li>Containers</li><li>Iterators</li><li>Algorithms</li><li>Functions</li></ul><h3 id=containers><strong>Containers</strong></h3><p>The containers are objects that store data. The STL contains three types of containers they are</p><ul><li>Sequential Containers</li><li>Associative Containers</li><li>Derived Containers</li></ul><h4 id=sequential-containers-><strong>Sequential Containers :</strong></h4><p>In sequential containers elements can be accessed sequentially. We will discuss the following containers which are defined in the current revision of the C++ standard :</p><ul><li>array</li><li>vector</li><li>deque</li></ul><h4 id=array-><strong>Array</strong> :</h4><p>Array class in STL is a better alternative for C-style arrays. The advantages of array class over C-style array are :-</p><ul><li>Array classes knows its own size, whereas C-style arrays lack this property. So when passing the array to the functions, we dont need to pass size of Array as a separate parameter.</li><li>With C-style array there is more risk of array being decayed into a pointer (i.e., loss of type and dimensions of an array). Array classes don&rsquo;t decay into pointers.</li></ul><h4 id=operations-on-array-->Operations on array :-</h4><ol><li><strong>at()</strong> :- used to access the elements of array.</li><li><strong>operator[]</strong> :- similar to C-style arrays this method is also used to access array elements.</li><li><strong>front()</strong> :- returns the first element of array.</li><li><strong>back()</strong> :- returns the last element of array.</li><li><strong>size()</strong> :- returns the number of elements in the array.</li><li><strong>empty()</strong> :- returns true when array size is zero.</li><li><strong>fill()</strong> :- fills the entire array with specified value.</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;array&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    array<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#ae81ff>7</span><span style=color:#f92672>&gt;</span> ar <span style=color:#f92672>=</span> {<span style=color:#ae81ff>10</span>,<span style=color:#ae81ff>20</span>,<span style=color:#ae81ff>30</span>,<span style=color:#ae81ff>40</span>,<span style=color:#ae81ff>23</span>,<span style=color:#ae81ff>12</span>,<span style=color:#ae81ff>11</span>};   <span style=color:#75715e>//array initialization
+</span><span style=color:#75715e></span>    array<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#ae81ff>7</span><span style=color:#f92672>&gt;</span> ar1;
+
+    cout <span style=color:#f92672>&lt;&lt;</span> ar.at(<span style=color:#ae81ff>5</span>) <span style=color:#f92672>&lt;&lt;</span><span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;   
+
+    cout <span style=color:#f92672>&lt;&lt;</span> ar[<span style=color:#ae81ff>5</span>] <span style=color:#f92672>&lt;&lt;</span><span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;  
+
+    cout <span style=color:#f92672>&lt;&lt;</span> ar.front() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    cout <span style=color:#f92672>&lt;&lt;</span> ar.back() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;   
+
+    cout <span style=color:#f92672>&lt;&lt;</span> ar.size() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;    
+
+    ar1.empty()<span style=color:#f92672>?</span> cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Array is empty&#34;</span><span style=color:#f92672>:</span>
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Array is not empty&#34;</span>;       
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    ar1.fill(<span style=color:#ae81ff>0</span>);       
+
+    <span style=color:#66d9ef>for</span> ( <span style=color:#66d9ef>int</span> i<span style=color:#f92672>=</span><span style=color:#ae81ff>0</span>; i<span style=color:#f92672>&lt;</span><span style=color:#ae81ff>7</span>; i<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> ar[i] <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;     
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+}
+</code></pre></div><p>Output :</p><pre><code>12
+12
+10
+11
+7
+Array is empty
+0 0 0 0 0 0 0
+</code></pre><h4 id=vector-><strong>Vector</strong> :</h4><p>Vectors are sequential containers representing arrays that can change in size or a dynamic array. Just like arrays, elements are stored in contiguous storage locations. In vectors, data is inserted at the end.</p><h4 id=operations-on-vector-->Operations on vector :-</h4><ol><li><strong>begin()</strong> - returns an iterator pointing to the first element in the vector.</li><li><strong>end()</strong> - returns an iterator pointing to last element in the vector.</li><li><strong>size()</strong> - returns the number of elements in the vector.</li><li><strong>push_back()</strong> - it pushes the elements into the vector from the back.</li><li><strong>pop_back</strong> - it is used to remove elements from vector from the back.</li><li><strong>erase()</strong> - it is used to remove elements from a container from the specified position or range.</li><li><strong>clear()</strong> - used to remove all elements from the vector.</li><li><strong>resize(n)</strong> - resizes the container so that it contains &lsquo;n&rsquo; elements.</li><li><strong>empty()</strong> - returns true if vector is empty.</li><li><strong>at(g)</strong> - returns the element at position &lsquo;g&rsquo; in the vector.</li><li><strong>operator[g]</strong> :- returns the element at position &lsquo;g&rsquo; in the vector.</li><li><strong>front()</strong> - returns a reference to the first element in the vector.</li><li><strong>back()</strong> - returns a reference to the last element in the vector.</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;vector&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    vector <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> g1;    <span style=color:#75715e>//initializing vector g1 of type int.
+</span><span style=color:#75715e></span>
+    g1.empty()<span style=color:#f92672>?</span> cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector is empty&#34;</span><span style=color:#f92672>:</span>
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector is not empty&#34;</span>;   
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>int</span> i<span style=color:#f92672>=</span><span style=color:#ae81ff>1</span>;i<span style=color:#f92672>&lt;=</span><span style=color:#ae81ff>7</span>;i<span style=color:#f92672>++</span>)
+        g1.push_back(i<span style=color:#f92672>*</span><span style=color:#ae81ff>10</span>);
+
+    <span style=color:#66d9ef>int</span> l <span style=color:#f92672>=</span> g1.size();
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Size of the vector is &#34;</span>  <span style=color:#f92672>&lt;&lt;</span> l <span style=color:#f92672>&lt;&lt;</span><span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;First and last elements of the vector are &#34;</span> <span style=color:#f92672>&lt;&lt;</span> g1.front() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span> <span style=color:#f92672>&lt;&lt;</span> g1.back() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector : &#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>int</span> i<span style=color:#f92672>=</span><span style=color:#ae81ff>0</span>;i<span style=color:#f92672>&lt;</span>l;i<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> g1[i] <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    g1.pop_back();
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector after pop_back() : &#34;</span>;
+    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> i <span style=color:#f92672>=</span> g1.begin(); i <span style=color:#f92672>!=</span> g1.end(); i<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>i <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    g1.erase(g1.begin()<span style=color:#f92672>+</span><span style=color:#ae81ff>2</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector after erasing element at index 2 :&#34;</span>;
+    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> i <span style=color:#f92672>=</span> g1.begin(); i <span style=color:#f92672>!=</span> g1.end(); i<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>i <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+
+    g1.resize(<span style=color:#ae81ff>7</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector after resizing : &#34;</span>;
+    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> i <span style=color:#f92672>=</span> g1.begin(); i <span style=color:#f92672>!=</span> g1.end(); i<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>i <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+
+    g1.clear();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector has been cleared</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    g1.empty()<span style=color:#f92672>?</span> cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector is empty&#34;</span><span style=color:#f92672>:</span>
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector is not empty&#34;</span>;   
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+
+}
+
+</code></pre></div><p>Output :</p><pre><code>Vector is empty
+Size of the vector is 7
+First and last elements of the vector are 10 70
+Vector : 10 20 30 40 50 60 70
+Vector after pop_back() : 10 20 30 40 50 60
+Vector after erasing element at index 2 :10 20 40 50 60
+Vector after resizing : 10 20 40 50 60 0 0
+Vector has been cleared
+Vector is empty
+</code></pre><h4 id=deque-><strong>Deque</strong> :</h4><p>Deque or double ended queues are sequence containers which can be expanded and contracted from the both ends. They are similar but more efficient than vectors in case of insertion and deletion of elements. Unlike vectors, contiguous storage allocations may not be guaranteed.</p><p>Deque has all the functions for vector with an addition of :-</p><ol><li><strong>push_front()</strong> - it pushes the elements into the deque from the front.</li><li><strong>pop_front()</strong> - it removes elements from the deque from the front.</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;deque&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    deque <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> g;
+    g.push_back(<span style=color:#ae81ff>10</span>);
+    g.push_front(<span style=color:#ae81ff>100</span>);
+    g.push_back(<span style=color:#ae81ff>1000</span>);
+    g.push_front(<span style=color:#ae81ff>10000</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Deque : &#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span>  it<span style=color:#f92672>=</span>g.begin();it<span style=color:#f92672>!=</span>g.end();it<span style=color:#f92672>++</span>)
+    {
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    }
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    g.pop_back();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Deque after pop_back() : &#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span>  it<span style=color:#f92672>=</span>g.begin();it<span style=color:#f92672>!=</span>g.end();it<span style=color:#f92672>++</span>)
+    {
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    }
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    g.pop_front();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Deque after pop_front() : &#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span>  it<span style=color:#f92672>=</span>g.begin();it<span style=color:#f92672>!=</span>g.end();it<span style=color:#f92672>++</span>)
+    {
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    }
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+}
+</code></pre></div><p>Output :</p><pre><code>Deque : 10000 100 10 1000
+Deque after pop_back() : 10000 100 10
+Deque after pop_front() : 100 10
+</code></pre><h4 id=associative-containers-><strong>Associative containers :</strong></h4><p>Associative containers is a variable-sized container that supports efficient retrieval of elements. These are sorted data structures so they can be quickly searched(i.e., in
+O(log n) complexity).</p><p>We will discuss the following containers which are defined in the current revision of the C++ standard :</p><ul><li>Set</li><li>Map</li></ul><h4 id=set-><strong>Set</strong> :</h4><p>Sets are a type of associative containers in which each element has to be unique, because the value of the element identifies. We cannot alter the value of element in the set but we can remove or add the elements to set.</p><p>Some basic funtions associated with Set :</p><ol><li><strong>begin()</strong> -returns an iterator pointing to the first element in the set.</li><li><strong>end()</strong> -returns an iterator pointing to the last element in the set.</li><li><strong>size()</strong> -returns the number of elements in the set.</li><li><strong>empty()</strong> -returns true if set is empty.</li><li><strong>insert(g)</strong> -adds a new element &lsquo;g&rsquo; to the set.</li><li><strong>erase(g)</strong> -removes the value &lsquo;g&rsquo; from the set.</li><li><strong>clear()</strong> -removes all elements from the set.</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;set&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    set <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> s;    <span style=color:#75715e>//intialising set
+</span><span style=color:#75715e></span>    s.insert(<span style=color:#ae81ff>10</span>);
+    s.insert(<span style=color:#ae81ff>1</span>);
+    s.insert(<span style=color:#ae81ff>100</span>);
+    s.insert(<span style=color:#ae81ff>50</span>);
+    s.insert(<span style=color:#ae81ff>50</span>);   <span style=color:#75715e>//50 is inserted only once.
+</span><span style=color:#75715e></span>
+    <span style=color:#66d9ef>int</span> l<span style=color:#f92672>=</span>s.size();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;No of elements in the set are &#34;</span> <span style=color:#f92672>&lt;&lt;</span> l <span style=color:#f92672>&lt;&lt;</span><span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Set : &#34;</span>;
+    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> it<span style=color:#f92672>=</span>s.begin();it<span style=color:#f92672>!=</span>s.end();it<span style=color:#f92672>++</span>)
+    {
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    }
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    s.erase(<span style=color:#ae81ff>10</span>);
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Set after removing 10 : &#34;</span>;
+    <span style=color:#66d9ef>for</span> (<span style=color:#66d9ef>auto</span> it<span style=color:#f92672>=</span>s.begin();it<span style=color:#f92672>!=</span>s.end();it<span style=color:#f92672>++</span>)
+    {
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    }
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    s.clear();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Set has been cleared</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    s.empty()<span style=color:#f92672>?</span> cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Set is empty&#34;</span><span style=color:#f92672>:</span>
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Set is not empty&#34;</span>;   
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+}
+</code></pre></div><p>Output :</p><pre><code>No of elements in the set are 4
+Set : 1 10 50 100
+Set after removing 10 : 1 50 100
+Set has been cleared
+Set is empty
+</code></pre><h4 id=map-><strong>Map</strong> :</h4><p>Maps are associative containers that store elements in a mapped fashion i.e., each element has a key value and a mapped value. Key value is unique i.e., no two mapped values can have same key values.</p><p>Some basic function associated with Map :</p><ol><li><strong>begin()</strong> -returns an iterator pointing to the first element in the map.</li><li><strong>end()</strong> -returns an iterator pointing to the last element in the map.</li><li><strong>size()</strong> -returns the number of elements in the map.</li><li><strong>empty()</strong> -returns true if map is empty.</li><li><strong>insert()</strong> -adds a new element to the map.</li><li><strong>erase(g)</strong> -removes the key value &lsquo;g&rsquo; from the map.</li><li><strong>clear()</strong> -removes all the elements from the map.</li></ol><p>Also <strong>it->first</strong> and <strong>it->second</strong> are used to access the key and mapped values respectively where it is a iterator pointing to any of the element in the map.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;map&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    map <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> M;        <span style=color:#75715e>//intialising map with key and mapped values of type int
+</span><span style=color:#75715e></span>
+    M.insert(pair<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span>(<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>400</span>));
+    M.insert(pair<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span>(<span style=color:#ae81ff>9</span>,<span style=color:#ae81ff>600</span>));
+    M.insert(pair<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span>(<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>300</span>));
+    M.insert(pair<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span>(<span style=color:#ae81ff>7</span>,<span style=color:#ae81ff>20</span>));
+    M.insert(pair<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span>(<span style=color:#ae81ff>8</span>,<span style=color:#ae81ff>90</span>));
+    M.insert(pair<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span>(<span style=color:#ae81ff>5</span>,<span style=color:#ae81ff>30</span>));
+    M.insert(pair<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span>,<span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span>(<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>10</span>));
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Map :</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;KEY</span><span style=color:#ae81ff>\t</span><span style=color:#e6db74>ELEMENT</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span> it<span style=color:#f92672>=</span>M.begin();it<span style=color:#f92672>!=</span>M.end();it<span style=color:#f92672>++</span>)
+    {
+        cout <span style=color:#f92672>&lt;&lt;</span> it<span style=color:#f92672>-&gt;</span>first <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\t</span><span style=color:#e6db74>&#34;</span> <span style=color:#f92672>&lt;&lt;</span> it<span style=color:#f92672>-&gt;</span>second <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    }
+
+    <span style=color:#66d9ef>int</span> l <span style=color:#f92672>=</span> M.size();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;No of elements in the Map M is : &#34;</span> <span style=color:#f92672>&lt;&lt;</span> l <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    M.erase(<span style=color:#ae81ff>8</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Map after erasing 8:</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;KEY</span><span style=color:#ae81ff>\t</span><span style=color:#e6db74>ELEMENT</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span> it<span style=color:#f92672>=</span>M.begin();it<span style=color:#f92672>!=</span>M.end();it<span style=color:#f92672>++</span>)
+    {
+        cout <span style=color:#f92672>&lt;&lt;</span> it<span style=color:#f92672>-&gt;</span>first <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\t</span><span style=color:#e6db74>&#34;</span> <span style=color:#f92672>&lt;&lt;</span> it<span style=color:#f92672>-&gt;</span>second <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    }
+
+    M.clear();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Map has been cleared</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    M.empty()<span style=color:#f92672>?</span> cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Map is empty&#34;</span><span style=color:#f92672>:</span>
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Map is not empty&#34;</span>;   
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+}
+</code></pre></div><p>Output :</p><pre><code>Map :
+KEY     ELEMENT
+1       400
+2       10
+3       300
+5       30
+7       20
+8       90
+9       600
+No of elements in the Map M is : 7
+Map after erasing 8:
+KEY     ELEMENT
+1       400
+2       10
+3       300
+5       30
+7       20
+9       600
+Map has been cleared
+Map is empty
+</code></pre><h4 id=derived-containers-><strong>Derived containers :</strong></h4><h4 id=stack-><strong>Stack</strong> :</h4><p>Stacks are a type of data structure where a new element is stacked on top of the rest of the elements. It works on the LIFO (Last In, First Out) principle. We can think of it as stacking books on a pile of books.</p><p>Some basic function associated with Stack:</p><ol><li><strong>empty()</strong> -checks whether the stack is empty or not.</li><li><strong>top()</strong> -returns the element present at the top of the stack.</li><li><strong>size()</strong> -returns the number of elements in the stack.</li><li><strong>push()</strong> -pushes the element on top of the stack.</li><li><strong>pop()</strong> -removes the element from the top of the stack.</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;stack&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    <span style=color:#75715e>//Initializing a stack
+</span><span style=color:#75715e></span>	stack<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> s;
+	<span style=color:#75715e>//Pushing the elements in the stack
+</span><span style=color:#75715e></span>	s.push(<span style=color:#ae81ff>10</span>);
+	s.push(<span style=color:#ae81ff>15</span>);
+	s.push(<span style=color:#ae81ff>9</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Size of stack: &#34;</span> <span style=color:#f92672>&lt;&lt;</span> s.size() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#75715e>//Creating a temporary stack
+</span><span style=color:#75715e></span>    stack<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> sTemp <span style=color:#f92672>=</span> s;
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Elements of the stack: </span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>while</span>(<span style=color:#f92672>!</span>sTemp.empty()){
+        cout <span style=color:#f92672>&lt;&lt;</span> sTemp.top() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+        sTemp.pop();
+    }
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n\n</span><span style=color:#e6db74>&#34;</span>;
+
+    s.pop();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Size of stack after popping: &#34;</span> <span style=color:#f92672>&lt;&lt;</span> s.size() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Elements of the stack: </span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>while</span>(<span style=color:#f92672>!</span>s.empty()){
+        cout <span style=color:#f92672>&lt;&lt;</span> s.top() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+        s.pop();
+    }
+}
+</code></pre></div><p>Output:</p><pre><code>Size of stack: 3
+Elements of the stack:
+9 15 10
+
+Size of stack after popping: 2
+Elements of the stack:
+15 10
+</code></pre><h4 id=queue-><strong>Queue</strong> :</h4><p>Queue is a data structure where a new element is placed at the back of the queue. It follows the FIFO (First In, First Out) principle.</p><p>Some basic function associated with Queue:</p><ol><li><strong>empty()</strong> -checks whether the queue is empty or not.</li><li><strong>front()</strong> -returns the element present at the front of the queue.</li><li><strong>size()</strong> -returns the number of elements in the queue.</li><li><strong>push()</strong> -pushes the element to the back of the queue.</li><li><strong>pop()</strong> -removes the element from the front of the queue.</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;queue&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    <span style=color:#75715e>//Initializing a queue
+</span><span style=color:#75715e></span>	queue<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> q;
+	<span style=color:#75715e>//Pushing the elements in the queue
+</span><span style=color:#75715e></span>	q.push(<span style=color:#ae81ff>10</span>);
+	q.push(<span style=color:#ae81ff>15</span>);
+	q.push(<span style=color:#ae81ff>9</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Size of queue: &#34;</span> <span style=color:#f92672>&lt;&lt;</span> q.size() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#75715e>//Creating a temporary queue
+</span><span style=color:#75715e></span>    queue<span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> qTemp <span style=color:#f92672>=</span> q;
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Elements of the queue: </span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>while</span>(<span style=color:#f92672>!</span>qTemp.empty()){
+        cout <span style=color:#f92672>&lt;&lt;</span> qTemp.front() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+        qTemp.pop();
+    }
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n\n</span><span style=color:#e6db74>&#34;</span>;
+
+    q.pop();
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Size of queue after popping: &#34;</span> <span style=color:#f92672>&lt;&lt;</span> q.size() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Elements of the queue: </span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>while</span>(<span style=color:#f92672>!</span>q.empty()){
+        cout <span style=color:#f92672>&lt;&lt;</span> q.front() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+        q.pop();
+    }
+}
+</code></pre></div><p>Output:</p><pre><code>Size of queue: 3
+Elements of the queue:
+10 15 9
+
+Size of queue after popping: 2
+Elements of the queue:
+15 9
+</code></pre><h3 id=iterators><strong>Iterators</strong></h3><p>Iterators are objects which are used to point at the memory addresses of the STL containers. They reduce the time complexity and execution time of program.</p><h4 id=operations-of-iterators-><strong>Operations of iterators</strong>:-</h4><ol><li><strong>begin()</strong> -returns the beginning position of the container.</li><li><strong>end()</strong> -returns the ending position of the container.</li><li><strong>advance()</strong> -is used to increment the iterator position by specified value.</li><li><strong>next()</strong> -returns a new iterator which points after advancing the positions mentioned in its arguments.</li><li><strong>back()</strong> -returns a new iterator which points after decrementing the positions mentioned in its arguments.</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iterator&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;vector&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    vector <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> ar <span style=color:#f92672>=</span> {<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>4</span>,<span style=color:#ae81ff>5</span>};
+
+    vector <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;::</span>iterator ptr <span style=color:#f92672>=</span> ar.begin(); <span style=color:#75715e>//iterator intialisation
+</span><span style=color:#75715e></span>
+    <span style=color:#66d9ef>auto</span> itr <span style=color:#f92672>=</span> ar.begin();      <span style=color:#75715e>//can also be done this way
+</span><span style=color:#75715e></span>
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;The position of the iterator is &#34;</span> <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>ptr <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    <span style=color:#66d9ef>auto</span> it <span style=color:#f92672>=</span> next(itr,<span style=color:#ae81ff>3</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;The position of the new iterator using next() is &#34;</span> <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    advance(itr,<span style=color:#ae81ff>3</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;The position of iterator itr after advancing is &#34;</span> <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>itr <span style=color:#f92672>&lt;&lt;</span><span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    <span style=color:#66d9ef>auto</span> it1 <span style=color:#f92672>=</span> prev(itr,<span style=color:#ae81ff>3</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;The position of the new iterator using prev() is &#34;</span> <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it1 <span style=color:#f92672>&lt;&lt;</span><span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+}
+</code></pre></div><p>Output :</p><pre><code>The position of the iterator is 1
+The position of the new iterator using next() is 4
+The position of iterator itr after advancing is 4
+The position of the new iterator using prev() is 1
+</code></pre><p>We can use the iterators similarly for other containers as well.</p><h3 id=algorithms><strong>Algorithms</strong></h3><p>Under the header algorithm there are collection of functions which act on containers and can be used on ranges of elements.</p><p>We will discuss the usage of few algorithms under this header.</p><ol><li><p><strong>sort(first_iterator,last_iterator)</strong> -To sort the given vector from first_iterator to last_iterator.</p></li><li><p><strong>binary_search(first_iterator,last_iterator,x)</strong> -checks whether x exists in the the range [first,last] sorted vector or not.</p></li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;vector&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;algorithm&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    vector <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> v;
+    v.push_back(<span style=color:#ae81ff>10</span>);
+    v.push_back(<span style=color:#ae81ff>26</span>);
+    v.push_back(<span style=color:#ae81ff>18</span>);
+    v.push_back(<span style=color:#ae81ff>12</span>);
+    v.push_back(<span style=color:#ae81ff>100</span>);
+    v.push_back(<span style=color:#ae81ff>90</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector before sorting : &#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span> it<span style=color:#f92672>=</span>v.begin();it<span style=color:#f92672>!=</span>v.end();it<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>; 
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    sort(v.begin(),v.end());
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector after sorting : &#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span> it<span style=color:#f92672>=</span>v.begin();it<span style=color:#f92672>!=</span>v.end();it<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>; 
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Searching for 18 in the vector...</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>if</span>(binary_search(v.begin(),v.end(),<span style=color:#ae81ff>18</span>))
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Element found in vector</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>else</span>
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Element not found in the vector</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Searching for 19 in the vector...</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>if</span>(binary_search(v.begin(),v.end(),<span style=color:#ae81ff>19</span>))
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Element found in the vector</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    <span style=color:#66d9ef>else</span>
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Element not found in the vector</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    
+    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+}
+</code></pre></div><p>Output :</p><pre><code>Vector before sorting : 10 26 18 12 100 90 
+Vector after sorting : 10 12 18 26 90 100 
+Searching for 18 in the vector...
+Element found in the vector
+Searching for 19 in the vector...
+Element not found in the vector
+</code></pre><ol start=3><li><strong>max_element(first_iterator,last_iterator)</strong> -returns an iterator pointing the maximum element of the vector in the range [first,last]</li><li><strong>min_element(first_iterator,last_iterator</strong> -returns an iterator pointing the minimum element of the vector in the range [first,last]</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;vector&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;algorithm&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    vector <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> v;
+    v.push_back(<span style=color:#ae81ff>10</span>);
+    v.push_back(<span style=color:#ae81ff>26</span>);
+    v.push_back(<span style=color:#ae81ff>18</span>);
+    v.push_back(<span style=color:#ae81ff>12</span>);
+    v.push_back(<span style=color:#ae81ff>100</span>);
+    v.push_back(<span style=color:#ae81ff>90</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector : &#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span> it<span style=color:#f92672>=</span>v.begin();it<span style=color:#f92672>!=</span>v.end();it<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>; 
+
+    <span style=color:#66d9ef>auto</span> max_itr <span style=color:#f92672>=</span> max_element(v.begin(),v.end());
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Maximum element in the vector : &#34;</span> <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>max_itr <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+     
+    <span style=color:#66d9ef>auto</span> min_itr <span style=color:#f92672>=</span> min_element(v.begin(),v.end());
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Maximum element in the vector : &#34;</span> <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>min_itr <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    
+    
+    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+}
+</code></pre></div><p>Output :</p><pre><code>Vector : 10 26 18 12 100 90 
+Maximum element in the vector : 100
+Maximum element in the vector : 10
+</code></pre><ol start=5><li><strong>lower_bound(first_iterator,last_iterator,x)</strong> -returns an iterator pointing to the first element in the vector in the range [first,last] whose value is not less than &lsquo;x&rsquo;.</li><li><strong>upper_bound(first_iterator,last_iterator,x)</strong> -returns an iterator pointing to the first element in the vector in the range [first,last] whose value is greater than &lsquo;x&rsquo;.</li></ol><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-cpp data-lang=cpp><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;iostream&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;vector&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e>#include</span> <span style=color:#75715e>&lt;algorithm&gt;</span><span style=color:#75715e>
+</span><span style=color:#75715e></span><span style=color:#66d9ef>using</span> <span style=color:#66d9ef>namespace</span> std;
+
+<span style=color:#66d9ef>int</span> <span style=color:#a6e22e>main</span>()
+{
+    vector <span style=color:#f92672>&lt;</span><span style=color:#66d9ef>int</span><span style=color:#f92672>&gt;</span> v;
+    v.push_back(<span style=color:#ae81ff>10</span>);
+    v.push_back(<span style=color:#ae81ff>26</span>);
+    v.push_back(<span style=color:#ae81ff>12</span>);
+    v.push_back(<span style=color:#ae81ff>12</span>);
+    v.push_back(<span style=color:#ae81ff>100</span>);
+    v.push_back(<span style=color:#ae81ff>90</span>);
+
+    sort(v.begin(),v.end());
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;Vector after sorting : &#34;</span>;
+    <span style=color:#66d9ef>for</span>(<span style=color:#66d9ef>auto</span> it<span style=color:#f92672>=</span>v.begin();it<span style=color:#f92672>!=</span>v.end();it<span style=color:#f92672>++</span>)
+        cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>it <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; &#34;</span>;
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>; 
+
+    <span style=color:#66d9ef>auto</span> lb <span style=color:#f92672>=</span> lower_bound(v.begin(),v.end(),<span style=color:#ae81ff>12</span>);
+
+    <span style=color:#66d9ef>auto</span> ub <span style=color:#f92672>=</span> upper_bound(v.begin(),v.end(),<span style=color:#ae81ff>12</span>);
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;lower bound is at position &#34;</span> <span style=color:#f92672>&lt;&lt;</span> lb<span style=color:#f92672>-</span>v.begin() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; and is &#34;</span> <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>lb <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+
+    cout <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;upper bound is at position &#34;</span> <span style=color:#f92672>&lt;&lt;</span> ub<span style=color:#f92672>-</span>v.begin() <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34; and is &#34;</span> <span style=color:#f92672>&lt;&lt;</span> <span style=color:#f92672>*</span>ub <span style=color:#f92672>&lt;&lt;</span> <span style=color:#e6db74>&#34;</span><span style=color:#ae81ff>\n</span><span style=color:#e6db74>&#34;</span>;
+    
+    
+    <span style=color:#66d9ef>return</span> <span style=color:#ae81ff>0</span>;
+}
+</code></pre></div><p>Output :</p><pre><code>Vector after sorting : 10 12 12 26 90 100 
+lower bound is at position 1 and is 12
+upper bound is at position 3 and is 26
+</code></pre><h2 id=references-and-practice-problems->References and practice problems :</h2><ul><li><a href=https://www.hackerrank.com/domains/cpp/stl/page/1>https://www.hackerrank.com/domains/cpp/stl/page/1</a></li><li><a href=https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/tutorial/>https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/tutorial/</a></li><li><a href=https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/tutorial/>https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/tutorial/</a></li><li><a href=https://cp.cyberlabs.club/docs/roadmap/stl/stl-problems/>https://cp.cyberlabs.club/docs/roadmap/stl/stl-problems/</a></li></ul></div></div></div><footer class=footer><div class=footer__inner><a href=/ class=logo style=text-decoration:none><span class=logo__mark><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44"><path fill="none" d="M15 8l14.729 14.382L15 35.367"/></svg></span><span class=logo__text>Infero IITH</span>
+<span class=logo__cursor></span></a><div class=copyright><span><a href=https://scitech-iith.netlify.app/ target=_blank rel=noopener>Scitech</a> Team. Copyright © 2026</span>
+<span>Theme created by
+panr</span></div></div></footer><script src=https://infero.iith.dev/assets/main.js></script><script src=https://infero.iith.dev/assets/prism.js></script><script src=/js/codeforces.js></script></div></body></html>
